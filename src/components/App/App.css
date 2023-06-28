@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: local('Inter'), url('../../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../../fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-movie-app {
+  background-color: #e5e5e5;
+  min-width: 420px;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 36px 18px;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin: 0;
+    padding: 0 16px 18px;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,16 @@
+.card-info__overview {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 8px 0 0 0;
+}
+
+@media screen and (max-width: 420px) {
+  .card-info__overview {
+    position: relative;
+    top: 0;
+    left: -70px;
+    width: 370px;
+  }
+}

@@ -1,0 +1,16 @@
+.card-info__date {
+  color: #827e7e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .card-info__date {
+    margin: 4px 0;
+    padding: 0;
+  }
+}
